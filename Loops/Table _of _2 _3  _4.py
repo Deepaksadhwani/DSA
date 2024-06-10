@@ -11,6 +11,20 @@ def printTables():
     print("")
     
 
+# javascript code 
+function printTables(){
+    for (let i = 2; i <= 4; i++) {
+        let series = "";
+        for (let j = 1; j <= 10; j++){
+            series +=  j * i + " " 
+        }
+        console.log(series)
+        series = ""
+    }
+   
+}
+
+
 
 # Problem Statement:
 
